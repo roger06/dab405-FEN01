@@ -4,22 +4,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
     font-family: "Figtree", sans-serif;
-
-}
-
-
-main {
-    
 }
 
 
 section {
     width: 325px;
-    /* todo - get centered - flex */
     background-color: white;
-    /* height: 400px; */
     border: 1px solid black;
     border-radius: 15px;
     padding:  15px 25px 15px 15px;
@@ -34,12 +25,22 @@ section button {
     font: 9px;
     font-weight: bold;
     border: none;
-
 }
+
+section h1 {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
 
 section p {
     
     font-size: 12px;
+}
+
+section p.date {
+
+    margin-bottom: 1px;
 }
 section p.author {
     
@@ -51,4 +52,23 @@ section .headerimg {
     
     border-radius: 15px;
     margin-bottom: 10px;
+    
+}
+footer {
+
+    display: flex;
+    gap: 10px;    
+    /* justify-content: center; */
+    align-items: center;
+}
+
+ p {
+    
+    color:  hsl(0, 0%, 50%);
+
+}
+
+footer img {
+    width: 40px;
+    height: auto;
 }
