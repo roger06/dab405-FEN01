@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    font-family: "Figtree", sans-serif;
+
+}
+
+
+main {
+    
+}
+
+
+section {
+    width: 325px;
+    /* todo - get centered - flex */
+    background-color: white;
+    /* height: 400px; */
+    border: 1px solid black;
+    border-radius: 15px;
+    padding:  15px 25px 15px 15px;
+    
+}
+
+section button {
+    
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    padding: 5px;
+    font: 9px;
+    font-weight: bold;
+    border: none;
+
+}
+
+section p {
+    
+    font-size: 12px;
+}
+section p.author {
+    
+    font-size: 10px;
+    font-weight: bold;
+}
+
+section .headerimg {
+    
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
