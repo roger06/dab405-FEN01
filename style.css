@@ -9,17 +9,17 @@ body {
 
 
 section {
-    width: 325px;
+    width: 300px;
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
-    padding:  15px 25px 15px 15px;
+    padding: 15px 25px 15px 15px;
     box-shadow: 10px 10px;
-    
+
 }
 
 section button {
-    
+
     background-color: hsl(47, 88%, 63%);
     display: block;
     padding: 7px;
@@ -36,7 +36,7 @@ section h1 {
 
 
 section p {
-    
+
     font-size: 12px;
 }
 
@@ -44,28 +44,33 @@ section p.date {
 
     margin-bottom: 1px;
 }
+
 section p.author {
-    
+
     font-size: 10px;
     font-weight: bold;
 }
 
 section .headerimg {
-    
+
     border-radius: 15px;
     margin-bottom: 10px;
-    
+    width: 100%;
+    height: auto;
+    max-width: 336px;
+
 }
+
 footer {
 
     display: flex;
-    gap: 10px;    
+    gap: 10px;
     align-items: center;
 }
 
- p {
-    
-    color:  hsl(0, 0%, 50%);
+p {
+
+    color: hsl(0, 0%, 50%);
 
 }
 
@@ -78,14 +83,13 @@ footer img {
     height: auto;
 }
 
- /* mobile */
- /* very few changes needed */
+/* mobile */
+/* very few changes needed */
 
- @media screen and (width < 600px) {
-    
+@media screen and (width < 600px) {
+
     body {
 
-        background-color: #fff;
         align-items: start;
         justify-content: center;
         margin-top: 5%;
@@ -94,15 +98,15 @@ footer img {
     section {
 
         width: 80%;
-        padding:  10%;
+        padding: 10%;
         margin-right: 3%;
     }
 
 
-section .headerimg {
-    
-   width: 100%;
-   height: auto;
-    
+    section .headerimg {
+
+        width: 100%;
+        height: auto;
+
+    }
 }
- }
